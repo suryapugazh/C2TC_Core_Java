@@ -7,6 +7,7 @@ public class Base {
 	int varDefault=10;
 	public int varPublic=20;
 	private int varPrivate=30;
+
 	protected int varProtected=40;
 	
 	// Methods using Access Specifier
@@ -23,11 +24,19 @@ public class Base {
 		System.out.println("Public Variable : "+varPublic);
 	}
 	
-	private void methodPrivate()
-	{
-		System.out.println("Private access Base class");
-		System.out.println("Private Variable : "+varPrivate);
+	public int getVarPrivate() {
+		return varPrivate;
 	}
+
+	public void setVarPrivate(int varPrivate) {
+		this.varPrivate = varPrivate;
+	}
+	
+//	private void methodPrivate()
+//	{
+//		System.out.println("Private access Base class");
+//		System.out.println("Private Variable : "+varPrivate);
+//	}
 	
 	protected void methodProtected()
 	{

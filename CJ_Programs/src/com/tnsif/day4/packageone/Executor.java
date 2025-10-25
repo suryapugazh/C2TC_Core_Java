@@ -20,6 +20,9 @@ public class Executor {
 		b1.varPublic=41;
 		b1.methodPublic();
 		
+		b1.setVarPrivate(50);
+		b1.getVarPrivate();
+		
 		// instanceof -> operator that check the created object is an instance of given class.
 		System.out.println(b1 instanceof Base);
 		

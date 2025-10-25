@@ -2,12 +2,12 @@ package com.tnsif.day4.packageone;
 
 public class PersonAbstraction {
 	
-	// Data Abstraction
+	// data Abstraction
 	private String personName;
 	private int personAge;
 	private String personCity;
 	
-	// Getters and Setters
+	// getters and Setters
 	public String getPersonName() {
 		return personName;
 	}

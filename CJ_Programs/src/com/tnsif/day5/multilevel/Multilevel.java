@@ -3,6 +3,7 @@ package com.tnsif.day5.multilevel;
 import java.util.Date;
 
 public class Multilevel {
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 
 		Person p1;
