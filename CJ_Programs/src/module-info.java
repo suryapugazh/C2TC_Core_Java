@@ -4,5 +4,6 @@
 /**
  * 
  */
-module CJ_Programs {
+module Core_Java_Courses {
+	requires java.sql;
 }
